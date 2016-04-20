@@ -9,7 +9,7 @@ public class TowerOfHanoi {
     int n = input.nextInt();
 
     // Find the solution recursively
-    System.out.println("Trekkene er:");
+    System.out.println("\nTrekkene er:");
     moveDisks(n, 'A', 'B', 'C');
     System.out.println("\nMed " + n + " skiver ble løsningen fullført med " + count + " trekk!");
   }
